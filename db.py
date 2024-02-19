@@ -4,9 +4,9 @@ def insert(date, watch, answer):
     def connect():
         return mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="root",
-            database="whatimdoing"
+            user="",
+            password="",
+            database=""
         )
     datetime = f'{date} {watch}'
     conn = connect()
